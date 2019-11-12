@@ -1,0 +1,3 @@
+*.xlf -diff
+*.resx -diff
+*.resw -diff
