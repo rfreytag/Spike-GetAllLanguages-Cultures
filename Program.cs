@@ -17,8 +17,7 @@ namespace Spike_GetAllLanguages_Cultures
 
             Console.WriteLine("List of all .NET CultureTypes (Language-Culture)\n");
 
-            foreach (CultureInfo ci in ci_list)
-
+            foreach (CultureInfo ci in ci_list.OrderBy( cc => cc.Name))
             {
                 Console.WriteLine("{0,-31}{1,-47}", "PROPERTY", "INTERNATIONAL");
                 Console.WriteLine("{0,-31}{1,-47}", "CompareInfo", ci.CompareInfo);
