@@ -18,4 +18,3 @@ This .NET C# console application gives an example of the code used to access all
 
 ### Who do I talk to? ###
 
-* Richard Freytag, Freytag & Company, LLC, rfreytag@freytag.org
